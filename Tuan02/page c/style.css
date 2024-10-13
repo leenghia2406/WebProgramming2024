@@ -118,6 +118,7 @@ p {
 }
 
 #section_pix_4 .section_video .bgvid {
+    margin: 0 auto;
     max-width: 100%;
 }
 
