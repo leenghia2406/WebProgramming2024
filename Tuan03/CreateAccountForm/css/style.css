@@ -111,7 +111,7 @@ input[type="radio"]:checked+label {
     width: 50%;
 }
 
-.payment-input label {
+.payment-input div {
     display: inline-block;
     height: 45px;
     width: 100%;
@@ -122,15 +122,21 @@ input[type="radio"]:checked+label {
     color: #ccc;
     text-align: center;
     font-weight: 400;
-}
-
-.payment-input input:checked label {
-    color: #fff;
-    background: #7ED321;
+    align-items: center;
 }
 
 .payment-input i {
     margin-right: 10px;
+}
+
+.payment-input div:hover {
+    color: #fff;
+    background: #7ED321;
+    cursor: pointer;
+}
+
+.payment-input div:hover i {
+    color: #fff;
 }
 
 .wrapper .cardnumber-input {
